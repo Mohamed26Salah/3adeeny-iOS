@@ -60,3 +60,8 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+# Added by code-review-graph
+.code-review-graph/
+.claude
+.mcp.json
+**/*.md

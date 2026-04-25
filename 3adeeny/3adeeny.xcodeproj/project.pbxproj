@@ -29,6 +29,16 @@
 		ABE752AC2F9C3FE400EB5978 /* 3adeenyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3adeenyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		ABE752CD2F9C411600EB5978 /* Exceptions for "Library" folder in "3adeeny" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Navigation,
+			);
+			target = ABE752942F9C3FE100EB5978 /* 3adeeny */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		ABE752972F9C3FE100EB5978 /* 3adeeny */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -43,6 +53,14 @@
 		ABE752AF2F9C3FE400EB5978 /* 3adeenyUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = 3adeenyUITests;
+			sourceTree = "<group>";
+		};
+		ABE752CC2F9C410E00EB5978 /* Library */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				ABE752CD2F9C411600EB5978 /* Exceptions for "Library" folder in "3adeeny" target */,
+			);
+			path = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +93,7 @@
 		ABE7528C2F9C3FE100EB5978 = {
 			isa = PBXGroup;
 			children = (
+				ABE752CC2F9C410E00EB5978 /* Library */,
 				ABE752972F9C3FE100EB5978 /* 3adeeny */,
 				ABE752A52F9C3FE400EB5978 /* 3adeenyTests */,
 				ABE752AF2F9C3FE400EB5978 /* 3adeenyUITests */,
@@ -109,6 +128,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				ABE752972F9C3FE100EB5978 /* 3adeeny */,
+				ABE752CC2F9C410E00EB5978 /* Library */,
 			);
 			name = 3adeeny;
 			packageProductDependencies = (
