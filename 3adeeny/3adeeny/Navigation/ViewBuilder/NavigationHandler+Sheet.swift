@@ -2,11 +2,12 @@
 //  NavigationHandler+Sheet.swift
 //
 //
-//  Created by Mohamed Salah on 29/03/2026.
+//  Created by Mohamed Salah on 25/04/2026.
 //
 
 import Foundation
 import SwiftUI
+import Navigation
 //MARK: - Sheet builder -
 
 extension NavRouter {
@@ -15,7 +16,7 @@ extension NavRouter {
     public func build(sheet: Sheet) -> some View {
         switch sheet {
         case .bottomSheet:
-            Text("BottomSheet")
+            Text("bottomSheet")
         }
     }
 }

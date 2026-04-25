@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		ABE752F22F9C469200EB5978 /* Navigation in Frameworks */ = {isa = PBXBuildFile; productRef = ABE752F12F9C469200EB5978 /* Navigation */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		ABE752A32F9C3FE400EB5978 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -70,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABE752F22F9C469200EB5978 /* Navigation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +102,7 @@
 				ABE752972F9C3FE100EB5978 /* 3adeeny */,
 				ABE752A52F9C3FE400EB5978 /* 3adeenyTests */,
 				ABE752AF2F9C3FE400EB5978 /* 3adeenyUITests */,
+				ABE752F02F9C469200EB5978 /* Frameworks */,
 				ABE752962F9C3FE100EB5978 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -109,6 +115,13 @@
 				ABE752AC2F9C3FE400EB5978 /* 3adeenyUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		ABE752F02F9C469200EB5978 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +145,7 @@
 			);
 			name = 3adeeny;
 			packageProductDependencies = (
+				ABE752F12F9C469200EB5978 /* Navigation */,
 			);
 			productName = 3adeeny;
 			productReference = ABE752952F9C3FE100EB5978 /* 3adeeny.app */;
@@ -600,6 +614,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ABE752F12F9C469200EB5978 /* Navigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Navigation;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ABE7528D2F9C3FE100EB5978 /* Project object */;
 }

@@ -1,13 +1,15 @@
 //
 //  NavigationHandler+Screen.swift
-//  
 //
-//  Created by Mohamed Salah on 29/03/2026.
+//
+//  Created by Mohamed Salah on 25/04/2026.
 //
 
+import Foundation
 import SwiftUI
-
+import Navigation
 //MARK: - Screen builder
+
 extension NavRouter {
     @ViewBuilder
     public func build(screen: Screen) -> some View {
@@ -15,7 +17,7 @@ extension NavRouter {
         case .home:
             Text("Home")
         case .profile:
-            Text("Profile")
+            Text("FullScreen")
         }
     }
 }

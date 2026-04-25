@@ -2,8 +2,7 @@
 //  Router.swift
 //  KodeiOS
 //
-//  Created by Mohamed Salah on 10/03/2024.
-//  Copyright © 2024 34ML. All rights reserved.
+//  Created by Mohamed Salah on 25/04/2026.
 //
 
 import Foundation
