@@ -1,7 +1,7 @@
 import Factory
 import Environment
 
-extension Container {
+public extension Container {
     var authInterceptor: Factory<AuthInterceptor> {
         self { AuthInterceptor() }.singleton
     }
