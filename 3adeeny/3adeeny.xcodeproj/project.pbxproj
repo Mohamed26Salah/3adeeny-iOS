@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AB449AA62F9DBE3100709768 /* Environment in Frameworks */ = {isa = PBXBuildFile; productRef = AB449AA52F9DBE3100709768 /* Environment */; };
 		AB449AA82F9DBF0800709768 /* NetworkKit in Frameworks */ = {isa = PBXBuildFile; productRef = AB449AA72F9DBF0800709768 /* NetworkKit */; };
+		AB449AAB2F9DC2D600709768 /* 3adeenyUI in Frameworks */ = {isa = PBXBuildFile; productRef = AB449AAA2F9DC2D600709768 /* 3adeenyUI */; };
 		ABE752F22F9C469200EB5978 /* Navigation in Frameworks */ = {isa = PBXBuildFile; productRef = ABE752F12F9C469200EB5978 /* Navigation */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		ABE752CD2F9C411600EB5978 /* Exceptions for "Library" folder in "3adeeny" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				ApplicationPackages/3adeenyUI,
 				CorePackages/Environment,
 				CorePackages/Navigation,
 				CorePackages/Network,
@@ -78,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB449AAB2F9DC2D600709768 /* 3adeenyUI in Frameworks */,
 				AB449AA82F9DBF0800709768 /* NetworkKit in Frameworks */,
 				ABE752F22F9C469200EB5978 /* Navigation in Frameworks */,
 				AB449AA62F9DBE3100709768 /* Environment in Frameworks */,
@@ -154,6 +157,7 @@
 				ABE752F12F9C469200EB5978 /* Navigation */,
 				AB449AA52F9DBE3100709768 /* Environment */,
 				AB449AA72F9DBF0800709768 /* NetworkKit */,
+				AB449AAA2F9DC2D600709768 /* 3adeenyUI */,
 			);
 			productName = 3adeeny;
 			productReference = ABE752952F9C3FE100EB5978 /* 3adeeny.app */;
@@ -771,6 +775,10 @@
 		AB449AA72F9DBF0800709768 /* NetworkKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = NetworkKit;
+		};
+		AB449AAA2F9DC2D600709768 /* 3adeenyUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = 3adeenyUI;
 		};
 		ABE752F12F9C469200EB5978 /* Navigation */ = {
 			isa = XCSwiftPackageProductDependency;
